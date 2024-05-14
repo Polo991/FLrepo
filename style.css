@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url("depositphotos_423768794-stock-photo-large-natural-area-seven-lakes.jpg");
+}
+}
+@font-face {
+  font-family: roboto;
+  src: url("Roboto-Regular.woff") format(woff);
+  font-weight: normal;
+  font-style: normal;
+}
+#main {
+  position: relative;
+  padding-top: 40%;
+  color: white;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+h1 {
+  font-size: 50px !important;
+  font-style: bold;
+}
+.downheader {
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: roboto;
+}
+.button {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.5s;;
+}
+.button:hover {
+  background-color: transparent;
+  color: white;
+}
